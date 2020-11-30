@@ -1,0 +1,9 @@
+{
+  "name": "@calculator/add",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.64"
+  }
+}

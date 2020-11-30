@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "lib": ["es2020"],
+    "esModuleInterop": true,
+    "baseUrl": "./"
+  },
+  "include": [
+    "./packages/*/src/"
+  ]
+}

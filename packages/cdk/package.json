@@ -1,0 +1,18 @@
+{
+  "name": "@calculator/cdk",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@aws-cdk/assert": "1.75.0",
+    "@aws-cdk/aws-apigatewayv2": "1.75.0",
+    "@aws-cdk/aws-apigatewayv2-integrations": "1.75.0",
+    "@aws-cdk/aws-lambda": "1.75.0",
+    "@aws-cdk/aws-logs": "1.75.0",
+    "@aws-cdk/aws-logs-destinations": "1.75.0",
+    "@aws-cdk/core": "1.75.0",
+    "aws-cdk": "1.75.0",
+    "aws-sdk": "2.799.0",
+    "cdk-typescript-tooling": "2.0.0",
+    "ts-loader": "8.0.11",
+    "ts-node": "9.0.0"
+  }
+}
