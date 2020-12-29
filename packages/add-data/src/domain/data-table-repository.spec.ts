@@ -23,9 +23,11 @@ beforeEach(async () => {
   const putCacheItem = ({
     invocationId,
     lambdaName,
+    timestamp = new Date().valueOf(),
   }: {
     invocationId: string;
     lambdaName: string;
+    timestamp?: number;
   }) => {
     const newVar = {
       RequestItems: {
@@ -35,6 +37,7 @@ beforeEach(async () => {
               Item: {
                 lambdaName,
                 invocationId,
+                timestamp,
               },
             },
           },
@@ -48,6 +51,7 @@ beforeEach(async () => {
     putCacheItem({
       lambdaName: "successful",
       invocationId: "1",
+      timestamp: 123,
     }),
     putCacheItem({
       lambdaName: "failed",
@@ -66,6 +70,7 @@ test("Finding by lambdaName", async () => {
     {
       lambdaName: "successful",
       invocationId: "1",
+      timestamp: 123,
     },
   ]);
 });
