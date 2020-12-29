@@ -1,0 +1,7 @@
+{
+  "name": "@fake-data/example-lambda-with-fake",
+  "version": "1.0.0",
+  "dependencies": {
+    "fake-data-sender": "1.0.1"
+  }
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import * as cdk from "@aws-cdk/core";
-import { Calculator } from "./Calculator";
+import { FakeData } from "./FakeData";
 
 const app = new cdk.App();
 
-export default new Calculator(app, "Calculator");
+export default new FakeData(app, "FakeData");
